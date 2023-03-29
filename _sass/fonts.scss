@@ -36,8 +36,8 @@
   @font-face {
     font-family: "GraphikVF";
     // src: url("../../assets/css/Fonts/Graphik-Upright-VF.eot") format('embedded-opentype'); /* EDIT correction on this line */
-    src: url("../../assets/css/Fonts/Graphik-Upright-VF.woff2") format('woff2'), /* Modern Browsers */
-    url("../../assets/css/Fonts/Graphik-Upright-VF.ttf") format('truetype'); /* Safari, Android, iOS */
+    src: url("../assets/css/Fonts/Graphik-Upright-VF.woff2") format('woff2'), /* Modern Browsers */
+    url("../assets/css/Fonts/Graphik-Upright-VF.ttf") format('truetype'); /* Safari, Android, iOS */
     font-weight:normal;
    font-style:normal;
    font-stretch: 75% 100%;
@@ -53,8 +53,8 @@
  @font-face {
   font-family: "GraphikVFi";
   // src: url("../../assets/css/Fonts/Graphik-Italic-VF.eot") format('embedded-opentype'); /* EDIT correction on this line */
-  src: url("../../assets/css/Fonts/Graphik-Italic-VF.woff2") format('woff2'), /* Modern Browsers */
-  url("../../assets/css/Fonts/Graphik-Italic-VF.ttf") format('truetype'); /* Safari, Android, iOS */
+  src: url("../assets/css/Fonts/Graphik-Italic-VF.woff2") format('woff2'), /* Modern Browsers */
+  url("../assets/css/Fonts/Graphik-Italic-VF.ttf") format('truetype'); /* Safari, Android, iOS */
   font-weight:normal;
  font-style:normal;
  font-stretch: 75% 100%;
