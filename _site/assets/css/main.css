@@ -68,9 +68,9 @@ input[type="range"]:focus::-ms-fill-lower { background: var(--grey1200-opacity30
 
 input[type="range"]:focus::-ms-fill-upper { background: var(--grey1200-opacity30); }
 
-@font-face { font-family: "GraphikVF"; src: url("../../assets/css/Fonts/Graphik-Upright-VF.ttf"); font-weight: normal; font-style: normal; font-stretch: 75% 100%; font-style: oblique 0deg 12deg; font-weight: 100 900; :root { --text-weight: 500; --text-width: 100; --text-slant: 0; } }
+@font-face { font-family: "GraphikVF"; src: url("../../assets/css/Fonts/Graphik-Upright-VF.woff2") format("woff2"), url("../../assets/css/Fonts/Graphik-Upright-VF.ttf") format("truetype"); /* Safari, Android, iOS */ font-weight: normal; font-style: normal; font-stretch: 75% 100%; font-style: oblique 0deg 12deg; font-weight: 100 900; }
 
-@font-face { font-family: "GraphikVFi"; src: url("../../assets/css/Fonts/Graphik-Italic-VF.ttf"); font-weight: normal; font-style: normal; font-stretch: 75% 100%; font-style: oblique 0deg 12deg; font-weight: 100 900; :root { --text-weight: 500; --text-width: 100; --text-slant: 0; } }
+@font-face { font-family: "GraphikVFi"; src: url("../../assets/css/Fonts/Graphik-Italic-VF.woff2") format("woff2"), url("../../assets/css/Fonts/Graphik-Italic-VF.ttf") format("truetype"); /* Safari, Android, iOS */ font-weight: normal; font-style: normal; font-stretch: 75% 100%; font-style: oblique 0deg 12deg; font-weight: 100 900; }
 
 header { display: flex; align-items: center; justify-content: space-between; padding: 0 32px; height: 64px; }
 
