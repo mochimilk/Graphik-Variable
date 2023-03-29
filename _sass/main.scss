@@ -94,6 +94,7 @@ html[data-theme="dark"] {
 }
 
 
+
 html {
   height: 100%;
 }
@@ -103,9 +104,10 @@ background-color: $backgroundColor;
 color: $bodyColor;
   font-family: 'GraphikVF';
   min-height: 100%;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
 }
+
 
 
 

@@ -6,7 +6,7 @@ html[data-theme="dark"] { --background-color: #181818; --light-text-color: rgb(2
 
 html { height: 100%; }
 
-body, html { background-color: var(--background-color); color: var(--light-text-color); font-family: 'GraphikVF'; min-height: 100%; margin: 0 auto; padding: 0; }
+body, html { background-color: var(--background-color); color: var(--light-text-color); font-family: 'GraphikVF'; min-height: 100%; margin: 0; padding: 0; }
 
 .button { font-family: 'GraphikVF', sans-serif; background-color: var(--light-text-color); border: none; color: var(--background-color); padding: 16px 32px; border-radius: 4px; text-align: center; text-decoration: none; display: inline-block; font-size: 12px; text-transform: uppercase; letter-spacing: .1rem; font-weight: 600; line-height: 100%; }
 
@@ -68,6 +68,8 @@ input[type="range"]:focus::-ms-fill-lower { background: var(--grey1200-opacity30
 
 input[type="range"]:focus::-ms-fill-upper { background: var(--grey1200-opacity30); }
 
+@media only screen and (max-width: 768px) { .font-parameters { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 32px; grid-row-gap: 48px; width: calc(100% - 64px); max-width: 100%; box-sizing: border-box; padding: 0px; margin: 0 auto; position: sticky; bottom: 12px; background: none; border-radius: 8px; } #preview-content { /*font-family: 'Roboto Mono',monospace;*/ font-family: "GraphikVF"; font-stretch: 100%; font-style: oblique 0deg; font-weight: 400; font-size: 90px; letter-spacing: 0em; line-height: 1.2em; width: calc(100% - 64px); margin: 64px auto; box-sizing: border-box; text-align: left; } }
+
 @font-face { font-family: "GraphikVF"; src: url("../../assets/css/fonts/Graphik-Upright-VF.woff2") format("woff2"), url("../../assets/css/fonts/Graphik-Upright-VF.ttf") format("truetype"); /* Safari, Android, iOS */ font-weight: normal; font-style: normal; font-stretch: 75% 100%; font-style: oblique 0deg 12deg; font-weight: 100 900; }
 
 @font-face { font-family: "GraphikVFi"; src: url("../../assets/css/fonts/Graphik-Italic-VF.woff2") format("woff2"), url("../../assets/css/fonts/Graphik-Italic-VF.ttf") format("truetype"); /* Safari, Android, iOS */ font-weight: normal; font-style: normal; font-stretch: 75% 100%; font-style: oblique 0deg 12deg; font-weight: 100 900; }
@@ -90,7 +92,7 @@ input[type="range"]:focus::-ms-fill-upper { background: var(--grey1200-opacity30
 
 .w800 { font-variation-settings: 'wght' 900; }
 
-header { display: flex; align-items: center; justify-content: space-between; padding: 0 32px; height: 64px; }
+header { display: flex; align-items: center; justify-content: space-between; padding: 32px 32px; height: 64px; }
 
 header circle.sandbox { fill: #29A869 !important; }
 
@@ -98,8 +100,6 @@ header svg { fill: var(--logo); }
 
 /* CSS files add styling rules to your content */
 :root { --width: 60px; --height: 30px; }
-
-body { font-family: helvetica, arial, sans-serif; box-sizing: border-box; margin: 0; padding: 0; margin: 2em; }
 
 .theme-toggle { position: relative; width: var(--width); height: var(--height); }
 

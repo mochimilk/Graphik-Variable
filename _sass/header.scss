@@ -2,7 +2,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 32px ;
+    padding: 32px 32px ;
 	height: 64px;
     circle.sandbox {
         fill: $tertiary !important;
@@ -22,13 +22,6 @@ header {
 	--height: 30px;
 }
 
-body {
-	font-family: helvetica, arial, sans-serif;
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	margin: 2em;
-}
 
 .theme-toggle {
 	position: relative;
